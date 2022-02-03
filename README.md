@@ -14,3 +14,21 @@ My favorite city outside of my hometown of Seattle is Tokyo, Japan🗼. I fell i
 Hobbies include watching sports (Seattle teams like Seahawks, University of Washington Huskies), eating food 😆, planning/going on travel adventures, spending time with friends/family, Star Wars, Marvel, credit card churning, video games 🎮, photography 📷, and I'm a fairly avid reader of news/current events and probably spend too much time on Reddit.
 
 I look forward to working with the team - they've been welcoming and friendly which is so refreshing and encouraging! I tend to be more of a listener and may not always speak up but I hope to absorb and contribute in meaningful ways soon. I've been told I generally display a calm demeanor so please don't take that as a lack of care - I'm slightly introverted by nature by try to be thoughtful and empathetic in all my interactions 😅
+
+- Testing link [Google](https://www.google.com)
+- This site was built using [GitHub Pages](https://pages.github.com/)
+- Gmail link [Gmail](https://www.gmail.com)
+
+### Some images
+![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
+
+### Task list
+- [x] Sign up for benefits
+- [ ] Go through onboarding checklist
+- [ ] Go through DCS onboarding issues guide
+
+@griffineng How does this look so far?
+
+Here is a sample footnote[^1]
+
+[^1]: my reference
