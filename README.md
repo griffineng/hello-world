@@ -24,11 +24,17 @@ I look forward to working with the team - they've been welcoming and friendly wh
 
 ### Task list
 - [x] Sign up for benefits
-- [ ] Go through onboarding checklist
-- [ ] Go through DCS onboarding issues guide
+- [x] Go through onboarding checklist
+- [x] Go through DCS onboarding issues guide
+- [ ] Get access to staff tools
+- [ ] Familiarize with Zendesk
+- [ ] Review supportability strategy
+- [x] Meet awesome teammates
 
 @griffineng How does this look so far?
 
 Here is a sample footnote[^1]
+Sample footnote[^2]
 
 [^1]: my reference
+[^2]: sample footnote for practice
