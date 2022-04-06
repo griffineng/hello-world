@@ -3,10 +3,8 @@ name: Supportability Team Meeting
 title: "Supportability Team Meeting - {{ date | date('add', 6, 'days') | date('dddd, MMMM Do, YYYY') }}"
 labels: "agenda"
 assignees:
-  - taz
-  - yukaav
   - griffineng
-  - tiaraleslie
+
 ---
 
 ## Agenda 
