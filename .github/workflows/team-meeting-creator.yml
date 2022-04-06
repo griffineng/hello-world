@@ -1,6 +1,6 @@
 name: Create and close weekly team meeting issue
 on:
-  workflow_dispatch
+  workflow_dispatch:
   schedule:
   ## Wednesday of every week @ 00:00 UTC (Wednesday AEDT) for Tue meeting the following week
   - cron: '00 08 * * WED'
