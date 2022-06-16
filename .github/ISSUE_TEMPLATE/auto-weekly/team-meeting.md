@@ -9,15 +9,15 @@ assignees:
 ## Agenda 
 Add topics to discuss in the section below: 
 
-[ ] 
+- [ ] asdf
 
-[ ] 
+- [ ] asdf
 
-[ ] 
+- [ ] asdf
 
 
 
 ### Meeting Action items
-[ ]
+- [ ] 
 
 :information_desk_person: Last weeks meeting: #{{ env.LAST_WEEK_MEETING_ID }}
