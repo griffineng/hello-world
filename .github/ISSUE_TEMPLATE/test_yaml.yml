@@ -146,9 +146,10 @@ body:
       value: |
         # Favorite Fruits
         <details open> 
-          * apples
-          * cherries
-          - [x] Bananas,
-          - [ ] Oranges,
+          list:
+            - apples
+            - cherries
+            - [x] Bananas,
+            - [ ] Oranges,
         </details>
 
