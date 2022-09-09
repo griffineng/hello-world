@@ -1,0 +1,154 @@
+name: One-Revenue Scenario
+description: Create a One Revenue scenario from various sources for consideration as a One-Revenue discussion topic.
+title: "Scenario: <Title>"
+labels: ["scenario"]
+body:
+  - type: markdown
+    attributes: 
+      value: |
+        # Creating a Scenario
+
+        :warning: If you're here to submit a customer feedback or feature request, please select the appropriate intake in the [Customer Feedback Repository](https://github.com/github/customer-feedback/issues/new/choose) instead.
+
+        Please review the [contribution guide](https://github.com/github/customer-feedback/blob/griffineng/one-revenue/docs/One%20Revenue%20Contribution%20guide.md) or contact the DCS Supportability team via [#supportability](https://github.slack.com/archives/C0123M2PN9F) in Slack if you have any questions.
+
+        Ensure you add as much detail as possible to explain why this scenario should be considered. Including links to existing Support Esclations or Customer Feedback helps with automatic triaging.
+        
+        ---
+
+  - type: dropdown
+    id: product-owner
+    attributes:
+      label: Product Owner
+      description: Which product area owns the scope of this scenario? If you're unsure, please refer to XYZ or the [service catalog](https://catalog.githubapp.com/).
+      options:
+        - Actions
+        - Core
+        - Communities
+        - Enterprise
+        - Memex
+        - Productivity
+        - Security
+        - Security Products
+#    validations:
+#      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: | 
+        Describe in as much detail as possible why the scenario is important to the Revenue Org, and how the resources included later in the form are relevant to the discussion.
+    validations:
+      required: true
+  - type: dropdown
+    id: scenario-outcome-simple
+    attributes:
+      label: Requested EPD outcome
+      description: Select the outcome you require from EPD to resolve your scenario.
+      options:
+        - To gain clarification of GitHub's internal and/or public position.
+        - Request a review of a Product decision based on new information or customer feedback.
+        - Provide additional context which may influence prioritisation of the current product roadmap.
+        - Something else... (Clarify below)
+#    validations:
+#      required: true
+  - type: textarea
+    id: scenario-outcome-simple-other
+    attributes:
+      label: "Requested EPD outcome (Other)"
+      description: If you selected "Something else..." in the drop down above, please describe what you require from EPD in the space below.
+ #     placeholder: "Complete this field if an outcome was not selected above ☝️"
+ 
+  - type: input
+    id: scenario-estimated-arr
+    attributes:
+      label: Estimated ARR Impact
+      description: List the ARR (annual recurring revenue) impact if available (optional).
+ 
+  - type: input
+    id: scenario-estimated-seats
+    attributes:
+      label: Estimated seats impacted
+      description: List the customer seat impact if available (optional).
+      
+ # - type: markdown
+ #   attributes: 
+ #       value: |
+ #         # Suggested Paths Forward
+ #         :information_source: These sections are optional, however adding a couple of suggestions is strongly encouraged. Do you have any potential solutions you'd like to put forward for consideration?
+  - type: textarea
+    id: solution-delighters
+    attributes:
+      label: Short Term Delighter
+      description: Share any ideas you feel might be of lower complexity that would quickly remove friction, work-around a problem, or address a need in the short-term.
+  - type: textarea
+    id: solution-long-term-investment
+    attributes:
+      label: Long Term Solution
+      description: Detail any solutions you feel are more complex or aspirational and will likely need more significant investment over a longer period of time.      
+  
+  - type: markdown
+    attributes: 
+        value: |
+          # Supporting Content and Resources
+          References to content which support the importance of the scenario should be added in the section below. This allows us to assess the weight of the scenario and advociate and prioritize it accordingly against other issues and scenarios in the same product pillar.
+          
+  - type: textarea
+    id: customer-references
+    attributes:
+      label: "Customer Feedback & Support Escalations (Links)"
+      description: |
+        :warning:  Items listed in this section should be direct links to Support Escalations or Customer Feedback Issues. Do not add additional description or comment. 
+      placeholder: | 
+        - https://github.com/github/customer-feedback/issues/<customer-feedback-issue-id>
+        - https://github.com/github/<escalation-enabled-repo>/issues/<escalation-issue-id>
+  - type: textarea
+    id: customer-references-manual
+    attributes:
+      label: "Unstructured Feedback"
+      description: | 
+        Examples include links to Community Discussions and public feedback issues or customer verbatims and testimonials received via alternate means such as email. For the latter, please clearly indicate the contributing customer and approximate date recieved.
+      placeholder: | 
+        > 2020-02-16 - Avocado Corp: The Samophlange isn't working as anticipated, perhaps it was stomped on during the release?
+  - type: textarea
+    id: customer-references-dashboards
+    attributes:
+      label: "Supporting Dashboards"
+      description: | 
+        If available, include links to dashboards or snapshots to help illustrate the opportunity the scenario represents
+      placeholder: | 
+        - https://looker.githubapp.com/dashboards/<dashboard-id>
+        - https://user-images.githubusercontent.com/12481632/<scenario-snapshot>.png
+
+
+  - type: markdown
+    attributes:
+      value: |
+        #### :green_circle: You're all done! Please do not fill out the next two fields as they are reserved for EPD.
+
+  - type: markdown
+    attributes: 
+      value: |
+        # Official Product Guidance
+  - type: textarea
+    id: product-feedback-internal
+    attributes:
+      label: Internal Guidance
+      value: TBD. Internal guidance is not to be shared with customers.
+  - type: textarea
+    id: product-feedback-external
+    attributes:
+      label: Public Guidance
+      value: TBD. Public guidance should be in a format which can be copy and pasted to customers verbatim.
+      
+  - type: markdown
+    attributes:
+      value: |
+        # Favorite Fruits
+        
+        <details open>
+        * [ ] Apples
+        * [x] Bananas
+        
+        </details>
+
