@@ -144,12 +144,12 @@ body:
   - type: markdown
     attributes:
       value: |
-        # Favorite Fruits
-        <details open>
-        <summary>list of fruits</>
-          - apples
-          - cherries
-          - [x] Bananas
-          - [ ] Oranges
+        <details>
+          </br>
+
+          - [X] Item1
+          - [ ] Item2
+          - [ ] Item3
+
         </details>
 
